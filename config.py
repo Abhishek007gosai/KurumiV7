@@ -17,16 +17,16 @@ SHORT_TUT = "https://t.me/How_to_Download_7x/26"
 # Bot Configuration
 SESSION = "onlynoco"
 TOKEN = os.environ.get("TOKEN", "0")
-API_ID = "26254064"
-API_HASH = "72541d6610ae7730e6135af9423b319c"
+API_ID = "29245477"
+API_HASH = "0abc83883262245c90ca337b7a0375c4"
 WORKERS = 5 
 
 DB_URI = os.environ.get("DB_URI", "ITS USING CONFIG DB ")
 DB_NAME = os.environ.get("DB_NAME", "Cluster0")
 
-FSUBS = [[-1002372552947, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1003587010814, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
-DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002689479503"))
+DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1003568472008"))
 # Multiple Database Channels (can be set via bot settings)
 # DB_CHANNELS = {
 #     "-1002595092736": {"name": "Primary DB", "is_primary": True, "is_active": True},
@@ -35,7 +35,7 @@ DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002689479503"))
 # Auto Delete Timer (seconds)
 AUTO_DEL = 1800
 # Admin IDs
-ADMINS = [5296584067]
+ADMINS = [8786691721]
 CAPTION = ""
 # Bot Settings
 DISABLE_BTN = True
